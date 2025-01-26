@@ -19,7 +19,7 @@ public partial class Product
     
     public decimal Price { get; set; }
 
-    public decimal VatType { get; set; }
+    public decimal? VatType { get; set; }
 
     public decimal? Energy { get; set; }
 
